@@ -9,9 +9,10 @@
 <body>
 <?php
 $const = 7;
-for ($i=0; $i < ; $i++) { 
-    for ($j=0; $j < ; $j++) { 
-        print "$j x $i = $jx$i /br";
+for ($i=0; $i < $const; $i++) { 
+    for ($j=0; $j < 10; $j++) { 
+        $multi=$i . $j;
+        print "$j x $i = $multi"."/br";
     }
 
 }
